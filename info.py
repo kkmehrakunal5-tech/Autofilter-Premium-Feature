@@ -100,13 +100,13 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-100')) #Verification Channe
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-100')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/HowToOpenLink_666")   # Tutorial link for verification
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/HowToOpenLink_666")   # Second tutorial link for verification
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/HowToOpenLink_666")   # Third tutorial link for verification
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/HowToOpenLink_666/6")   # Tutorial link for verification
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/HowToOpenLink_666/6")   # Second tutorial link for verification
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/HowToOpenLink_666/6")   # Third tutorial link for verification
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "2469484d258897da1dc9edaf4face6f466301f39") # Shortener API key
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "https://api.gplinks.com") # Shortener website
+SHORTENER_API = environ.get("SHORTENER_API", "face6f466301f39") # Shortener API key
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "Shortner_Website_Url") # Shortener website
 
 SHORTENER_API2 = environ.get("SHORTENER_API2", "yei5ei5eie6id6d")  # Shortener API key for second website
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "Shortner_Website_Url") # Shortener website for second website
@@ -122,7 +122,7 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+F3zHFMEAYC5lYmY1') # Group link for the bot
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Extreme_Developer') # Owner link for the bot
-UPDATE_CHNL_LNK = environ.get('https://t.me/Hindi_Hd_Moviiis', 'https://t.me/Full_Power_Network') # Update channel link for the bot
+UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/Team_X_Crypto_Bitcoin_News_Chann') # Update channel link for the bot
 
 # ============================
 # User Configuration
